@@ -1,16 +1,17 @@
-# newsapi
+# newsapp
 
-A new Flutter project.
+A new Flutter Project for fetching the app from api and show the news according to top headlines .
 
-## Getting Started
+I have used the http://newsapi.org/v2/everything?q=kr&sortBy=publishedAt&apiKey=9ffcec8c2ce8497d9c69176ab12c2aab
+as an api.
+In this app MVVM Architecture (Model, View, ViewModel) is used and also provider package for state management.
 
-This project is a starting point for a Flutter application.
+## Run App Using Following Commands
 
-A few resources to get you started if this is your first Flutter project:
+1. Flutter clean
+2. Flutter run
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Outputs
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![homepage](https://user-images.githubusercontent.com/30024247/85263368-c9aaef80-b48e-11ea-9e87-c26be5c5ce30.PNG)
+![detailpage](https://user-images.githubusercontent.com/30024247/85263373-cb74b300-b48e-11ea-8c5e-3d78e4d408b6.PNG)
